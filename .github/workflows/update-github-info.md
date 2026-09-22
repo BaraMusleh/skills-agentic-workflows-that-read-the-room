@@ -40,6 +40,6 @@ Include source context when information comes from the GitHub Blog or GitHub
 Changelog.
 
 If the sources do not require a meaningful change, call `noop` with a short
-reason. Otherwise, use the `create-pull-request` safe output to open a pull
-request containing only the update to `site/content/github-info.md` for Mona to
-review. Do not write directly to the default branch.
+reason.Otherwise, use the `create-pull-request` safe output to open a pull request for Mona to review.
+The pull request must contain only the update to `site/content/github-info.md`.
+Do not write directly to the default branch.
